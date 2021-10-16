@@ -20,7 +20,10 @@ int main(){
 			break;
 		case 5:
 			printf("Food item - Sandwich\nPrice - Rs 149");
-			break;			
+			break;
+		default:
+			printf("Invalid Order");
+			break;
 	}
 	return 0;
 }
