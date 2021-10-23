@@ -35,6 +35,7 @@ int main()
 	        i++;
 	    }
 	    fputc('\0',mycap1);
+	    printf("Output:\n");
 	    int j;
 	    for (j=i-1;j>=0;j--)
 	    {
