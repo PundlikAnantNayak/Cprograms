@@ -35,7 +35,7 @@ int main()
 	        i++;
 	    }
 	    fputc('\0',mycap1);
-	    printf("The contents from input.txt have been copied to output.txt.\n\nReversed Content:\n");
+	    printf("The contents from file have been copied to output.txt! \n\nReversed Content:\n");
 	    int j;
 	    for (j=i-1;j>=0;j--)
 	    {
